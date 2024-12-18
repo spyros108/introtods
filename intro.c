@@ -9,13 +9,17 @@ int main() {
     scanf("%d", &num1);
     
     printf("Enter second number: ");
-    scanf("%d", &num2)
+     // i put a question mark in the end of scan
+    scanf("%d", &num2);
 
     // Calculating summary of numbers
-    sum = num1 * num2;
+     // to calculate the summary of some numbers we need the symbol + instead of *
+    sum = num1 + num2;
 
     // Printing the result
-    printf("The sum of %s and %d is %d\n", num1, num2, sum);
+     // num1 num2 are integers i put %d instead of %s
+    printf("The sum of %d and %d is %d\n", num1, num2, sum);
 
-    return 0
+    // i put a question mark in the end of return 0 because it was missing
+    return 0;
 }
